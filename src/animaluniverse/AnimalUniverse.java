@@ -12,7 +12,7 @@ package animaluniverse;
 public class AnimalUniverse {
 
     /**
-     * @param args the command line arguments
+     * THIS PROJECT IS TO PRACTICE POLIMORFISM
      */
     public static void main(String[] args) {
         
