@@ -5,6 +5,13 @@
  */
 package animaluniverse;
 
+import fish.Fish;
+import bird.Bird;
+import reptile.Reptile;
+import mammal.Mammal;
+import mammal.kangaroo;
+import reptile.Turtle;
+
 /**
  *
  * @author lucas
@@ -20,6 +27,11 @@ public class AnimalUniverse {
         Reptile r = new Reptile();
         Fish f = new Fish();
         Bird b = new Bird();
+        
+        kangaroo k = new kangaroo();
+        Turtle t = new Turtle();
+        
+        t.move();
         
         m.move();
     }

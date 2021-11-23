@@ -3,31 +3,35 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package animaluniverse;
+package bird;
+
+import animaluniverse.Animal;
 
 /**
  *
  * @author lucas
  */
-public class Mammal extends Animal{
+public class Bird extends Animal{
     
-    private String colorMammal;
+    private String colorBird;
     
-        
     @Override
     public void move(){
-        System.out.println("Running...");
+        System.out.println("Flying...");
     }
     
     @Override
     public void eat(){
-        System.out.println("eating...");
+        System.out.println("Bird eating...");
     }
     
     @Override
     public void doSound(){
-        System.out.println("doing song...");
+        System.out.println("doing bird song...");
+    }
+    
+    public void buildNest(){
+        System.out.println("Build nest...");
     }
 
-    
 }

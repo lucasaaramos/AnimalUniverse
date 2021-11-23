@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package animaluniverse;
+package mammal;
+
+import animaluniverse.Animal;
 
 /**
  *
  * @author lucas
  */
-public class Reptile extends Animal {
+public class Mammal extends Animal{
     
-    private String colorReptile;
+    private String colorMammal;
     
-    
+        
     @Override
     public void move(){
-        System.out.println("Rastejando...");
+        System.out.println("Running...");
     }
     
     @Override
@@ -26,7 +28,8 @@ public class Reptile extends Animal {
     
     @Override
     public void doSound(){
-        System.out.println("doing raptile song...");
+        System.out.println("doing song...");
     }
 
+    
 }
