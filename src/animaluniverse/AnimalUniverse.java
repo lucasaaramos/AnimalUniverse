@@ -7,6 +7,7 @@ package animaluniverse;
 
 import fish.Fish;
 import bird.Bird;
+import mammal.Dog;
 import reptile.Reptile;
 import mammal.Mammal;
 import mammal.kangaroo;
@@ -34,6 +35,15 @@ public class AnimalUniverse {
         t.move();
         
         m.move();
+        
+        Dog d = new Dog();
+        d.react("Hello");
+        d.react("vai apanhar");
+        d.react(11, 30);
+        d.react(15, 30);
+        d.react(true);
+       
+        
     }
     
 }

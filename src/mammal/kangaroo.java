@@ -19,4 +19,9 @@ public class kangaroo extends Mammal {
     public void move(){
         System.out.println("Kangaroo mooving...");
     }
+    
+    @Override
+    public void doSound(){
+        System.out.println("kangaroo song...");
+    }
 }
